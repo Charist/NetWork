@@ -4,7 +4,7 @@
 cmake_minimum_required (VERSION 3.8)
 
 # 将源代码添加到此项目的可执行文件。
-add_executable (SelectSrv "SelectServer.cpp")
+add_executable (SelectSrv "selectSrv.cpp")
 add_executable (SelectClient "selectclient.cpp")
 add_executable (PollSrv "pollsrv.cpp")
 add_executable (PollClient "pollclient.cpp")
